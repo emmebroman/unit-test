@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.arcada.bromanem.app.FacebookFriendFinderTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.028 s <<< FAILURE! - in com.arcada.bromanem.app.FacebookFriendFinderTest
+testGetFriendNamesFalse(com.arcada.bromanem.app.FacebookFriendFinderTest)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: array lengths differed, expected.length=2 actual.length=0
+	at com.arcada.bromanem.app.FacebookFriendFinderTest.testGetFriendNamesFalse(FacebookFriendFinderTest.java:80)
+
+testGetFriendNamesFalse2(com.arcada.bromanem.app.FacebookFriendFinderTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: array lengths differed, expected.length=2 actual.length=3
+	at com.arcada.bromanem.app.FacebookFriendFinderTest.testGetFriendNamesFalse2(FacebookFriendFinderTest.java:104)
+
